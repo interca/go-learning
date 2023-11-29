@@ -1,9 +1,9 @@
-package main
+package day1
 
 import "fmt"
 
 func init() {
-	fmt.Println(2)
+	fmt.Println("yyyyy")
 }
 
 func main() {

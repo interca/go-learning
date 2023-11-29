@@ -1,4 +1,4 @@
-package main
+package day1
 
 import "fmt"
 
@@ -6,8 +6,6 @@ func init() {
 	fmt.Println("ssss")
 }
 
-func main() {
-	fmt.Println("1")
-	var a int
-	fmt.Println(a)
+func Count() int {
+	return 1
 }
