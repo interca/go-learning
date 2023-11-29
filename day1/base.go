@@ -7,5 +7,7 @@ func init() {
 }
 
 func main() {
-	fmt.Print("1")
+	fmt.Println("1")
+	var a int
+	fmt.Println(a)
 }
