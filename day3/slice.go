@@ -10,4 +10,8 @@ func main() {
 	var b = make([]int, 3, 10)
 	fmt.Println(len(b), " ", cap(b))
 	fmt.Println(b[0:1])
+	var array [4]int
+	sl := array[:]
+	sl[0] = 1
+	fmt.Println(array)
 }

@@ -6,6 +6,10 @@ func change(a *[4]int) {
 	a[0] = 1
 }
 
+func comp(a [4]int) {
+	fmt.Printf("%p:\n", &a)
+}
+
 type node struct {
 	a int
 	b int
@@ -33,4 +37,6 @@ func main() {
 		{1, 2, 3},
 	}
 	fmt.Println(arr0)
+	fmt.Printf("%p:\n", &a)
+	comp(a)
 }
