@@ -17,10 +17,18 @@ func (p Person) sum() int {
 func (p *Person) change() {
 	p.name = "黄"
 }
+
+func add(a ...int) []int {
+	a[0] = 10
+	return a
+}
+
 func main() {
 	fmt.Println(count(111))
 	var p Person
 	println(p.sum())
 	p.change()
 	fmt.Println(p)
+	ints := add(1, 2, 3)
+	fmt.Println(ints)
 }
